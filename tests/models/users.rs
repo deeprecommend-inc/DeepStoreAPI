@@ -1,6 +1,6 @@
 use insta::assert_debug_snapshot;
 use loco_rs::{model::ModelError, testing};
-use DeepStoreAPI::{
+use deep_store_api::{
     app::App,
     models::users::{self, Model, RegisterParams},
 };

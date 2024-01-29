@@ -1,6 +1,6 @@
 use insta::{assert_debug_snapshot, with_settings};
 use loco_rs::testing;
-use DeepStoreAPI::{app::App, models::_entities::notes::Entity};
+use deep_store_api::{app::App, models::_entities::notes::Entity};
 use sea_orm::entity::prelude::*;
 use serial_test::serial;
 

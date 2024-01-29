@@ -50,4 +50,4 @@ started on port 3000
 ## Getting help
 
 Check out [a quick tour](https://loco.rs/docs/getting-started/tour/) or [the complete guide](https://loco.rs/docs/getting-started/guide/).
-# DeepStoreAPI
+# deep_store_api

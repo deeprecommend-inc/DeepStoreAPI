@@ -1,7 +1,7 @@
 [workspace]
 
 [package]
-name = "DeepStoreAPI"
+name = "deep_store_api"
 version = "0.1.0"
 edition = "2021"
 
@@ -33,7 +33,7 @@ uuid = { version = "1.6.0", features = ["v4"] }
 tracing-subscriber = { version = "0.3.17", features = ["env-filter", "json"] }
 
 [[bin]]
-name = "DeepStoreAPI-cli"
+name = "deep_store_api-cli"
 path = "src/bin/main.rs"
 required-features = []
 

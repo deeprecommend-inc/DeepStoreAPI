@@ -1,7 +1,7 @@
 use eyre::Context;
 #[allow(unused_imports)]
 use loco_rs::{cli::playground, prelude::*};
-use DeepStoreAPI::app::App;
+use deep_store_api::app::App;
 
 #[tokio::main]
 async fn main() -> eyre::Result<()> {

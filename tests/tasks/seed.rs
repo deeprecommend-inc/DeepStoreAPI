@@ -16,7 +16,7 @@
 use std::collections::BTreeMap;
 
 use loco_rs::{db, prelude::*};
-use DeepStoreAPI::app::App;
+use deep_store_api::app::App;
 use migration::Migrator;
 
 #[allow(clippy::module_name_repetitions)]

@@ -1,3 +1,3 @@
 mod users;
 
-mod posts;
+mod reservations;

@@ -116,7 +116,7 @@ auth:
   # JWT authentication
   jwt:
     # Secret key for token generation and verification
-    secret: e7VB6iTtLqHRoce8Uegb
+    secret: q9W7JvDKP1JTzCZu9q8l
     # Token expiration time in seconds
     expiration: 604800 # 7 days
 

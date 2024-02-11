@@ -24,8 +24,8 @@ use crate::{
 pub struct App;
 #[async_trait]
 impl Hooks for App {
-    fn app_name() -> &'static str {
-        env!("CARGO_CRATE_NAME")
+    fn () -> &'static str {
+        env!(app_name"CARGO_CRATE_NAME")
     }
 
     fn app_version() -> String {
